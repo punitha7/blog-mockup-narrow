@@ -1,0 +1,102 @@
+
+body {
+    background-color: none;
+      height: 900px;
+  font-family: helvetica;
+}
+
+@media screen and (min-width: 990px) and (orientation: landscape)  {
+    body {
+        background-color: none;
+    }
+}
+
+nav {
+  background: #FFE599;
+  height: 40px;
+  width: 990px;
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid black; }
+
+nav p {
+  margin: 7px auto;
+  margin-left: 10px;
+  font-weight: bold; }
+
+
+.main {
+  background-color: #ffcc99;
+  border: 2px solid black;
+  height: 120px;
+  width: 990px;
+  margin-top: 33px;
+  position: fixed;
+  text-align: center; }
+
+h4 {
+  font-style: italic; }
+
+section {
+padding: 5px 0 0 10px;
+
+  width: 990px;
+  height: 750px;
+  margin: 170px 15px 10px 0;
+  float: left;
+  text-align: center; }
+
+article {
+  background: #A2C4C9;
+  padding: 10px;
+  border: 2px solid black;
+  width: 290px;
+  height: 500px;
+  margin: 0 12px 10px 0;
+  float: left;
+  text-align: left; }
+
+  h2 , h4 {
+    text-align: center;
+  }
+
+
+
+
+  .article1{
+    width: 455px;
+    height: 380px;
+  }
+
+.article2 {
+  width: 455px;
+  height: 220px; }
+
+
+#article3 {
+  width: 940px;
+  height: 200px; }
+
+
+
+.article4 {
+  border: 1px solid black;
+  width: 950px;
+  padding-top: 5px;
+  display: inline-block;
+  margin-top: 5px;
+  text-align: left;
+  height: 60px;
+
+  background-color: #3399ff;
+}
+
+footer {
+  background-color: #cb3499;
+  height: 40px;
+  width: 990px;
+  position: fixed;
+  bottom: 0;
+  border-bottom: 2px solid black; }
+
+/*# sourceMappingURL=style.css.map */
